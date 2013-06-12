@@ -302,5 +302,8 @@ behavior: url(css/PIE.htc);}
 
 
 
+aside li {
 
+	list-style-type: none;
+}
 

@@ -12,6 +12,9 @@
                
                
               <div class="entry-content"><!--//post-->
+                <?php if ( has_post_thumbnail() ) {
+               the_post_thumbnail('large');
+                } ?>
                 <?php the_content();?>
               </div><!--//.entry-content-->
                
@@ -26,36 +29,7 @@
 
 
 
-<article class="post right half">
-<h2 class=""><a href="#">Really Long Article Title Name The More Text The Better Cause You Never Know</a></h2>
-<p class="entry-meta">by Author Name for <a href="#">Column Type</a></p>
-
-<div class="entry-content"><!--//post-->
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed a eros nec orci volutpat vestibulum. Ut pellentesque sagittis metus. In euismod tellus id ante.</p>  
-
-
-</div><!--//.entry-content-->
-<p class="left"><a class="more" href="#">Read more &raquo;</a></p>
-<p class="right"><a class="comments" href="#">850</a></p>
-<div class="push"></div>
-</article>
-
-<article class="post left half">
-<h2 class=""><a href="#">Really Long Article Title Name The More Text The Better Cause You Never Know</a></h2>
-<p class="entry-meta">by Author Name for <a href="#">Column Type</a></p>
-
-<div class="entry-content"><!--//post-->
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed a eros nec orci volutpat vestibulum. Ut pellentesque sagittis metus. In euismod tellus id ante.</p>  
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed a eros nec orci volutpat vestibulum. Ut pellentesque sagittis metus. In euismod tellus id ante.</p> 
-
-
-</div><!--//.entry-content-->
-<p class="left"><a class="more" href="#">Read more &raquo;</a></p>
-<p class="right"><a class="comments" href="#">850</a></p>
-<div class="push"></div>
-</article>
-
+ 
 <div class="push"></div>
 </div><!--content-->
 
